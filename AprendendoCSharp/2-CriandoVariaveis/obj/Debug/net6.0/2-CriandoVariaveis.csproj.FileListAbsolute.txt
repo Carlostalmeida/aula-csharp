@@ -1,0 +1,15 @@
+C:\Git\Git-e-github\Carlos\AprendendoCSharp\2-CriandoVariaveis\bin\Debug\net6.0\2-CriandoVariaveis.exe
+C:\Git\Git-e-github\Carlos\AprendendoCSharp\2-CriandoVariaveis\bin\Debug\net6.0\2-CriandoVariaveis.deps.json
+C:\Git\Git-e-github\Carlos\AprendendoCSharp\2-CriandoVariaveis\bin\Debug\net6.0\2-CriandoVariaveis.runtimeconfig.json
+C:\Git\Git-e-github\Carlos\AprendendoCSharp\2-CriandoVariaveis\bin\Debug\net6.0\2-CriandoVariaveis.dll
+C:\Git\Git-e-github\Carlos\AprendendoCSharp\2-CriandoVariaveis\bin\Debug\net6.0\2-CriandoVariaveis.pdb
+C:\Git\Git-e-github\Carlos\AprendendoCSharp\2-CriandoVariaveis\obj\Debug\net6.0\2-CriandoVariaveis.csproj.AssemblyReference.cache
+C:\Git\Git-e-github\Carlos\AprendendoCSharp\2-CriandoVariaveis\obj\Debug\net6.0\2-CriandoVariaveis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\Git-e-github\Carlos\AprendendoCSharp\2-CriandoVariaveis\obj\Debug\net6.0\2-CriandoVariaveis.AssemblyInfoInputs.cache
+C:\Git\Git-e-github\Carlos\AprendendoCSharp\2-CriandoVariaveis\obj\Debug\net6.0\2-CriandoVariaveis.AssemblyInfo.cs
+C:\Git\Git-e-github\Carlos\AprendendoCSharp\2-CriandoVariaveis\obj\Debug\net6.0\2-CriandoVariaveis.csproj.CoreCompileInputs.cache
+C:\Git\Git-e-github\Carlos\AprendendoCSharp\2-CriandoVariaveis\obj\Debug\net6.0\2-CriandoVariaveis.dll
+C:\Git\Git-e-github\Carlos\AprendendoCSharp\2-CriandoVariaveis\obj\Debug\net6.0\refint\2-CriandoVariaveis.dll
+C:\Git\Git-e-github\Carlos\AprendendoCSharp\2-CriandoVariaveis\obj\Debug\net6.0\2-CriandoVariaveis.pdb
+C:\Git\Git-e-github\Carlos\AprendendoCSharp\2-CriandoVariaveis\obj\Debug\net6.0\2-CriandoVariaveis.genruntimeconfig.cache
+C:\Git\Git-e-github\Carlos\AprendendoCSharp\2-CriandoVariaveis\obj\Debug\net6.0\ref\2-CriandoVariaveis.dll
