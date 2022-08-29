@@ -1,0 +1,15 @@
+C:\Git\git-e-github\Carlos\aula-csharp\AprendendoCSharp\3-CriandoVariaveisPontoFlutuante\bin\Debug\net6.0\3-CriandoVariaveisPontoFlutuante.exe
+C:\Git\git-e-github\Carlos\aula-csharp\AprendendoCSharp\3-CriandoVariaveisPontoFlutuante\bin\Debug\net6.0\3-CriandoVariaveisPontoFlutuante.deps.json
+C:\Git\git-e-github\Carlos\aula-csharp\AprendendoCSharp\3-CriandoVariaveisPontoFlutuante\bin\Debug\net6.0\3-CriandoVariaveisPontoFlutuante.runtimeconfig.json
+C:\Git\git-e-github\Carlos\aula-csharp\AprendendoCSharp\3-CriandoVariaveisPontoFlutuante\bin\Debug\net6.0\3-CriandoVariaveisPontoFlutuante.dll
+C:\Git\git-e-github\Carlos\aula-csharp\AprendendoCSharp\3-CriandoVariaveisPontoFlutuante\bin\Debug\net6.0\3-CriandoVariaveisPontoFlutuante.pdb
+C:\Git\git-e-github\Carlos\aula-csharp\AprendendoCSharp\3-CriandoVariaveisPontoFlutuante\obj\Debug\net6.0\3-CriandoVariaveisPontoFlutuante.csproj.AssemblyReference.cache
+C:\Git\git-e-github\Carlos\aula-csharp\AprendendoCSharp\3-CriandoVariaveisPontoFlutuante\obj\Debug\net6.0\3-CriandoVariaveisPontoFlutuante.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\git-e-github\Carlos\aula-csharp\AprendendoCSharp\3-CriandoVariaveisPontoFlutuante\obj\Debug\net6.0\3-CriandoVariaveisPontoFlutuante.AssemblyInfoInputs.cache
+C:\Git\git-e-github\Carlos\aula-csharp\AprendendoCSharp\3-CriandoVariaveisPontoFlutuante\obj\Debug\net6.0\3-CriandoVariaveisPontoFlutuante.AssemblyInfo.cs
+C:\Git\git-e-github\Carlos\aula-csharp\AprendendoCSharp\3-CriandoVariaveisPontoFlutuante\obj\Debug\net6.0\3-CriandoVariaveisPontoFlutuante.csproj.CoreCompileInputs.cache
+C:\Git\git-e-github\Carlos\aula-csharp\AprendendoCSharp\3-CriandoVariaveisPontoFlutuante\obj\Debug\net6.0\3-CriandoVariaveisPontoFlutuante.dll
+C:\Git\git-e-github\Carlos\aula-csharp\AprendendoCSharp\3-CriandoVariaveisPontoFlutuante\obj\Debug\net6.0\refint\3-CriandoVariaveisPontoFlutuante.dll
+C:\Git\git-e-github\Carlos\aula-csharp\AprendendoCSharp\3-CriandoVariaveisPontoFlutuante\obj\Debug\net6.0\3-CriandoVariaveisPontoFlutuante.pdb
+C:\Git\git-e-github\Carlos\aula-csharp\AprendendoCSharp\3-CriandoVariaveisPontoFlutuante\obj\Debug\net6.0\3-CriandoVariaveisPontoFlutuante.genruntimeconfig.cache
+C:\Git\git-e-github\Carlos\aula-csharp\AprendendoCSharp\3-CriandoVariaveisPontoFlutuante\obj\Debug\net6.0\ref\3-CriandoVariaveisPontoFlutuante.dll
