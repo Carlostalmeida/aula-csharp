@@ -1,0 +1,15 @@
+C:\Git\git-e-github\Carlos\aula-csharp\AprendendoCSharp\7-Condicionais\bin\Debug\net6.0\7-Condicionais.exe
+C:\Git\git-e-github\Carlos\aula-csharp\AprendendoCSharp\7-Condicionais\bin\Debug\net6.0\7-Condicionais.deps.json
+C:\Git\git-e-github\Carlos\aula-csharp\AprendendoCSharp\7-Condicionais\bin\Debug\net6.0\7-Condicionais.runtimeconfig.json
+C:\Git\git-e-github\Carlos\aula-csharp\AprendendoCSharp\7-Condicionais\bin\Debug\net6.0\7-Condicionais.dll
+C:\Git\git-e-github\Carlos\aula-csharp\AprendendoCSharp\7-Condicionais\bin\Debug\net6.0\7-Condicionais.pdb
+C:\Git\git-e-github\Carlos\aula-csharp\AprendendoCSharp\7-Condicionais\obj\Debug\net6.0\7-Condicionais.csproj.AssemblyReference.cache
+C:\Git\git-e-github\Carlos\aula-csharp\AprendendoCSharp\7-Condicionais\obj\Debug\net6.0\7-Condicionais.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\git-e-github\Carlos\aula-csharp\AprendendoCSharp\7-Condicionais\obj\Debug\net6.0\7-Condicionais.AssemblyInfoInputs.cache
+C:\Git\git-e-github\Carlos\aula-csharp\AprendendoCSharp\7-Condicionais\obj\Debug\net6.0\7-Condicionais.AssemblyInfo.cs
+C:\Git\git-e-github\Carlos\aula-csharp\AprendendoCSharp\7-Condicionais\obj\Debug\net6.0\7-Condicionais.csproj.CoreCompileInputs.cache
+C:\Git\git-e-github\Carlos\aula-csharp\AprendendoCSharp\7-Condicionais\obj\Debug\net6.0\7-Condicionais.dll
+C:\Git\git-e-github\Carlos\aula-csharp\AprendendoCSharp\7-Condicionais\obj\Debug\net6.0\refint\7-Condicionais.dll
+C:\Git\git-e-github\Carlos\aula-csharp\AprendendoCSharp\7-Condicionais\obj\Debug\net6.0\7-Condicionais.pdb
+C:\Git\git-e-github\Carlos\aula-csharp\AprendendoCSharp\7-Condicionais\obj\Debug\net6.0\7-Condicionais.genruntimeconfig.cache
+C:\Git\git-e-github\Carlos\aula-csharp\AprendendoCSharp\7-Condicionais\obj\Debug\net6.0\ref\7-Condicionais.dll
