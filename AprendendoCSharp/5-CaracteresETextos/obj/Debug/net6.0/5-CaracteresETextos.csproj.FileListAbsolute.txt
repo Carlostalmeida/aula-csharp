@@ -1,0 +1,15 @@
+C:\Git\Git-e-github\Carlos\aula-csharp\AprendendoCSharp\5-CaracteresETextos\bin\Debug\net6.0\5-CaracteresETextos.exe
+C:\Git\Git-e-github\Carlos\aula-csharp\AprendendoCSharp\5-CaracteresETextos\bin\Debug\net6.0\5-CaracteresETextos.deps.json
+C:\Git\Git-e-github\Carlos\aula-csharp\AprendendoCSharp\5-CaracteresETextos\bin\Debug\net6.0\5-CaracteresETextos.runtimeconfig.json
+C:\Git\Git-e-github\Carlos\aula-csharp\AprendendoCSharp\5-CaracteresETextos\bin\Debug\net6.0\5-CaracteresETextos.dll
+C:\Git\Git-e-github\Carlos\aula-csharp\AprendendoCSharp\5-CaracteresETextos\bin\Debug\net6.0\5-CaracteresETextos.pdb
+C:\Git\Git-e-github\Carlos\aula-csharp\AprendendoCSharp\5-CaracteresETextos\obj\Debug\net6.0\5-CaracteresETextos.csproj.AssemblyReference.cache
+C:\Git\Git-e-github\Carlos\aula-csharp\AprendendoCSharp\5-CaracteresETextos\obj\Debug\net6.0\5-CaracteresETextos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\Git-e-github\Carlos\aula-csharp\AprendendoCSharp\5-CaracteresETextos\obj\Debug\net6.0\5-CaracteresETextos.AssemblyInfoInputs.cache
+C:\Git\Git-e-github\Carlos\aula-csharp\AprendendoCSharp\5-CaracteresETextos\obj\Debug\net6.0\5-CaracteresETextos.AssemblyInfo.cs
+C:\Git\Git-e-github\Carlos\aula-csharp\AprendendoCSharp\5-CaracteresETextos\obj\Debug\net6.0\5-CaracteresETextos.csproj.CoreCompileInputs.cache
+C:\Git\Git-e-github\Carlos\aula-csharp\AprendendoCSharp\5-CaracteresETextos\obj\Debug\net6.0\5-CaracteresETextos.dll
+C:\Git\Git-e-github\Carlos\aula-csharp\AprendendoCSharp\5-CaracteresETextos\obj\Debug\net6.0\refint\5-CaracteresETextos.dll
+C:\Git\Git-e-github\Carlos\aula-csharp\AprendendoCSharp\5-CaracteresETextos\obj\Debug\net6.0\5-CaracteresETextos.pdb
+C:\Git\Git-e-github\Carlos\aula-csharp\AprendendoCSharp\5-CaracteresETextos\obj\Debug\net6.0\5-CaracteresETextos.genruntimeconfig.cache
+C:\Git\Git-e-github\Carlos\aula-csharp\AprendendoCSharp\5-CaracteresETextos\obj\Debug\net6.0\ref\5-CaracteresETextos.dll
