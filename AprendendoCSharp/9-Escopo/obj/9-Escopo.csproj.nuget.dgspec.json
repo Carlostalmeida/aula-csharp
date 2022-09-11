@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git\\git-e-github\\Carlos\\aula-csharp\\AprendendoCSharp\\9-Escopo\\9-Escopo.csproj": {}
+    "C:\\Git\\Git-e-github\\Carlos\\aula-csharp\\AprendendoCSharp\\9-Escopo\\9-Escopo.csproj": {}
   },
   "projects": {
-    "C:\\Git\\git-e-github\\Carlos\\aula-csharp\\AprendendoCSharp\\9-Escopo\\9-Escopo.csproj": {
+    "C:\\Git\\Git-e-github\\Carlos\\aula-csharp\\AprendendoCSharp\\9-Escopo\\9-Escopo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\git-e-github\\Carlos\\aula-csharp\\AprendendoCSharp\\9-Escopo\\9-Escopo.csproj",
+        "projectUniqueName": "C:\\Git\\Git-e-github\\Carlos\\aula-csharp\\AprendendoCSharp\\9-Escopo\\9-Escopo.csproj",
         "projectName": "9-Escopo",
-        "projectPath": "C:\\Git\\git-e-github\\Carlos\\aula-csharp\\AprendendoCSharp\\9-Escopo\\9-Escopo.csproj",
-        "packagesPath": "C:\\Users\\mi02954\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\git-e-github\\Carlos\\aula-csharp\\AprendendoCSharp\\9-Escopo\\obj\\",
+        "projectPath": "C:\\Git\\Git-e-github\\Carlos\\aula-csharp\\AprendendoCSharp\\9-Escopo\\9-Escopo.csproj",
+        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\Git-e-github\\Carlos\\aula-csharp\\AprendendoCSharp\\9-Escopo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mi02954\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

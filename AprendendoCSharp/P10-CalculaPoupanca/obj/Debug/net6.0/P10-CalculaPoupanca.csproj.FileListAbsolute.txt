@@ -1,0 +1,15 @@
+C:\Git\Git-e-github\Carlos\aula-csharp\AprendendoCSharp\P10-CalculaPoupanca\bin\Debug\net6.0\P10-CalculaPoupanca.exe
+C:\Git\Git-e-github\Carlos\aula-csharp\AprendendoCSharp\P10-CalculaPoupanca\bin\Debug\net6.0\P10-CalculaPoupanca.deps.json
+C:\Git\Git-e-github\Carlos\aula-csharp\AprendendoCSharp\P10-CalculaPoupanca\bin\Debug\net6.0\P10-CalculaPoupanca.runtimeconfig.json
+C:\Git\Git-e-github\Carlos\aula-csharp\AprendendoCSharp\P10-CalculaPoupanca\bin\Debug\net6.0\P10-CalculaPoupanca.dll
+C:\Git\Git-e-github\Carlos\aula-csharp\AprendendoCSharp\P10-CalculaPoupanca\bin\Debug\net6.0\P10-CalculaPoupanca.pdb
+C:\Git\Git-e-github\Carlos\aula-csharp\AprendendoCSharp\P10-CalculaPoupanca\obj\Debug\net6.0\P10-CalculaPoupanca.csproj.AssemblyReference.cache
+C:\Git\Git-e-github\Carlos\aula-csharp\AprendendoCSharp\P10-CalculaPoupanca\obj\Debug\net6.0\P10-CalculaPoupanca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\Git-e-github\Carlos\aula-csharp\AprendendoCSharp\P10-CalculaPoupanca\obj\Debug\net6.0\P10-CalculaPoupanca.AssemblyInfoInputs.cache
+C:\Git\Git-e-github\Carlos\aula-csharp\AprendendoCSharp\P10-CalculaPoupanca\obj\Debug\net6.0\P10-CalculaPoupanca.AssemblyInfo.cs
+C:\Git\Git-e-github\Carlos\aula-csharp\AprendendoCSharp\P10-CalculaPoupanca\obj\Debug\net6.0\P10-CalculaPoupanca.csproj.CoreCompileInputs.cache
+C:\Git\Git-e-github\Carlos\aula-csharp\AprendendoCSharp\P10-CalculaPoupanca\obj\Debug\net6.0\P10-CalculaPoupanca.dll
+C:\Git\Git-e-github\Carlos\aula-csharp\AprendendoCSharp\P10-CalculaPoupanca\obj\Debug\net6.0\refint\P10-CalculaPoupanca.dll
+C:\Git\Git-e-github\Carlos\aula-csharp\AprendendoCSharp\P10-CalculaPoupanca\obj\Debug\net6.0\P10-CalculaPoupanca.pdb
+C:\Git\Git-e-github\Carlos\aula-csharp\AprendendoCSharp\P10-CalculaPoupanca\obj\Debug\net6.0\P10-CalculaPoupanca.genruntimeconfig.cache
+C:\Git\Git-e-github\Carlos\aula-csharp\AprendendoCSharp\P10-CalculaPoupanca\obj\Debug\net6.0\ref\P10-CalculaPoupanca.dll
