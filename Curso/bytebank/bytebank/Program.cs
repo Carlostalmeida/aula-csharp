@@ -23,17 +23,29 @@ Console.WriteLine("Boas Vindas ao seu Banco, ByteBank!");
 //cliente.cpf = "10253541263";
 //cliente.profissao = "Programador C#";
 
-ContaCorrente conta3 = new ContaCorrente();
-conta3.titular = new Cliente();
-conta3.titular.nome = "Andre Silva";
-conta3.titular.cpf = "10253541263";
-conta3.titular.profissao = "Programador C#";
-conta3.conta = "2513252 - x";
-conta3.numero_agencia = 35;
-conta3.nome_agencia = "Agencia Central";
-conta3.saldo = 100;
+//ContaCorrente conta3 = new ContaCorrente();
+//conta3.titular = new Cliente();
+//conta3.titular.nome = "Andre Silva";
+//conta3.titular.cpf = "10253541263";
+//conta3.titular.profissao = "Programador C#";
+//conta3.conta = "2513252 - x";
+//conta3.numero_agencia = 35;
+//conta3.nome_agencia = "Agencia Central";
+//conta3.saldo = 100;
 
-Console.WriteLine(conta3.titular.nome);
+Cliente sarah = new Cliente();
+sarah.Nome = "Sarah Silva";
+
+ContaCorrente conta4 = new ContaCorrente(235, "125358-x");
+conta4.Saldo =150;
+conta4.Titular = sarah;
+Console.WriteLine("Saldo: " + conta4.Saldo);
+Console.WriteLine("Titular: " + conta4.Titular.Nome);
+Console.WriteLine("Conta: " + conta4.Conta);
+Console.WriteLine("Numero Agencia: " + conta4.Numero_Agencia);
+
+
+//Console.WriteLine(conta3.titular.nome);
 
 
 //Console.WriteLine("Titular: " + conta1.titular);
