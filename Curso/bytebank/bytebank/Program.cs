@@ -1,5 +1,6 @@
 ﻿using bytebank;
 using bytebank.Titular;
+using System;
 
 Console.WriteLine("Boas Vindas ao seu Banco, ByteBank!");
 
@@ -33,17 +34,24 @@ Console.WriteLine("Boas Vindas ao seu Banco, ByteBank!");
 //conta3.nome_agencia = "Agencia Central";
 //conta3.saldo = 100;
 
-Cliente sarah = new Cliente();
-sarah.Nome = "Sarah Silva";
+//Cliente sarah = new Cliente();
+//sarah.Nome = "Sarah Silva";
 
-ContaCorrente conta4 = new ContaCorrente(235, "125358-x");
-conta4.Saldo =150;
-conta4.Titular = sarah;
-Console.WriteLine("Saldo: " + conta4.Saldo);
-Console.WriteLine("Titular: " + conta4.Titular.Nome);
-Console.WriteLine("Conta: " + conta4.Conta);
-Console.WriteLine("Numero Agencia: " + conta4.Numero_Agencia);
+//ContaCorrente conta4 = new ContaCorrente(235, "125358-x");
+//conta4.Saldo =150;
+//conta4.Titular = sarah;
+//Console.WriteLine("Saldo: " + conta4.Saldo);
+//Console.WriteLine("Titular: " + conta4.Titular.Nome);
+//Console.WriteLine("Conta: " + conta4.Conta);
+//Console.WriteLine("Numero Agencia: " + conta4.Numero_Agencia);
 
+ContaCorrente conta5 = new ContaCorrente(235, "125358 -X");
+//conta5.TotalDeContasCriadas = 1;
+ContaCorrente conta6 = new ContaCorrente(365, "957256 -X");
+//conta6.TotalDeContasCriadas += 1;
+//Console.WriteLine(conta5.TotalDeContasCriadas);
+//Console.WriteLine(conta6.TotalDeContasCriadas);
+Console.WriteLine(ContaCorrente.TotalDeContasCriadas);
 
 //Console.WriteLine(conta3.titular.nome);
 

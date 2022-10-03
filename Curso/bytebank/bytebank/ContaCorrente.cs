@@ -48,8 +48,11 @@ namespace bytebank
                 }
             }
         }
+
         public string nome_agencia { get; set; }
+
         private double saldo;
+
         public bool verificador;
 
         public bool Sacar(double valor)
@@ -124,10 +127,12 @@ namespace bytebank
                 saldo = value;
             }
         }
+
         public ContaCorrente(int numero_agencia, string conta)
         {
             Numero_Agencia = numero_agencia;
             Conta = conta;
+            TotalDeContasCriadas = +1;
         }
 
         //public void ExibirDadosDaConta()
@@ -139,5 +144,6 @@ namespace bytebank
         //    Console.WriteLine("Saldo: " + saldo);
         //}
 
+        public static int TotalDeContasCriadas { get; set; }
     }
 }
