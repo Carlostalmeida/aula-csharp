@@ -8,6 +8,12 @@ namespace bytebank_ADM.Funcionarios
 {
     public class Funcionario
     {
+        // 0 - funcionario
+        // 1 - diretor
+        // 2 - Designer
+        // 3 - N..
+
+        //private int _tipo;
         private string nome;
         private string cpf;
         private double salario;
@@ -18,7 +24,9 @@ namespace bytebank_ADM.Funcionarios
 
         public double getBonificacao()
         {
+          
             return Salario * 0.1;
+
         }
     }
 }
