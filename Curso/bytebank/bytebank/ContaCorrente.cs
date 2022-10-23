@@ -7,9 +7,17 @@ namespace bytebank
     {
         public Cliente Titular { get; set; }
 
-        private string _conta;
+        //public static double TaxaOperacao { get; set; }
 
-        public string Conta
+        public static int TotalDeContasCriadas { get; set; }
+
+        public int ContadorSaquesNaoPermitidos { get; set; }
+
+        public int ContadorTransferenciaNaoPermitidas { get; set; }
+       
+        private int _conta;
+
+        public int Conta
         {    
             get
             {
@@ -30,7 +38,7 @@ namespace bytebank
 
         private int _numero_agencia;
 
-        public int Numero_Agencia 
+        private int Numero_Agencia 
         { 
             get
             {
@@ -55,21 +63,17 @@ namespace bytebank
 
         public bool verificador;
 
-        public bool Sacar(double valor)
+        public void Sacar(double valor)
         {
             if (saldo < valor)
             {
-                return false;
+                
+                ContadorSaquesNaoPermitidos++;
+                                
+                throw new SaldoInsuficienteException("Saldo insusficiente para saque no valor de " + valor);
             }
-            if (valor < 0)
-            {
-                return false;
-            }
-            else
-            {
-                saldo = saldo - valor;
-                return true;
-            }
+            saldo -= valor;
+          
         }
 
         public void Depositar(double valor)
@@ -79,6 +83,16 @@ namespace bytebank
 
         public bool Transferir(double valor, ContaCorrente destino)
         {
+            try
+            {
+                Sacar(valor);
+            }
+            catch (SaldoInsuficienteException ex)
+            {
+                ContadorTransferenciaNaoPermitidas++;
+                throw new OperacaoFinanceiraException("Operacao nao realizada.", ex);
+            }
+
             if (saldo < valor)
             {
                 return false;
@@ -128,10 +142,21 @@ namespace bytebank
             }
         }
 
-        public ContaCorrente(int numero_agencia, string conta)
+        public ContaCorrente(int numero_agencia, int conta)
         {
             Numero_Agencia = numero_agencia;
             Conta = conta;
+
+            //TaxaOperacao = 30 / TotalDeContasCriadas;
+            if(numero_agencia <= 0)
+            {
+                throw new ArgumentException("Os argumentos numero e agencia devem ser maiores que 0.", nameof(numero_agencia));
+            }
+            if(conta <= 0)
+            {
+                throw new ArgumentException("Os argumentos numero e agencia devem ser maiores que 0.", nameof(conta));
+            }
+
             TotalDeContasCriadas = +1;
         }
 
@@ -144,6 +169,6 @@ namespace bytebank
         //    Console.WriteLine("Saldo: " + saldo);
         //}
 
-        public static int TotalDeContasCriadas { get; set; }
+        
     }
 }

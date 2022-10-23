@@ -1,6 +1,8 @@
 ﻿using bytebank_ADM.Funcionarios;
 using bytebank_ADM.Utilitarios;
+using bytebank_ADM.SistemaInterno;
 using System.Security.Cryptography;
+using bytebank_ADM.ParceriaComercial;
 
 //Console.WriteLine("Boas vindas, ao Bytebank Administração!");
 //Console.WriteLine();
@@ -65,7 +67,8 @@ using System.Security.Cryptography;
 //pedro.AumentarSalario();
 //Console.WriteLine("Novo Salario do Pedro: " + pedro.Salario);
 
-CalcularBonificacao();
+//CalcularBonificacao();
+UsarSistema();
 
 void CalcularBonificacao()
 {
@@ -73,6 +76,9 @@ void CalcularBonificacao()
 
     Designer pedro = new Designer("833.222.048-39");
     pedro.Nome = "Pedro";
+
+    Desenvolvedor samya = new Desenvolvedor("451.585.606-16");
+    samya.Nome = "Samya";
 
     Diretor paula = new Diretor("159.753.398-04");
     paula.Nome = "Paula";
@@ -84,11 +90,31 @@ void CalcularBonificacao()
     camila.Nome = "Camila";
 
     gerenciador.Registrar(pedro);
+    gerenciador.Registrar(samya);
     gerenciador.Registrar(paula);
     gerenciador.Registrar(igor);
     gerenciador.Registrar(camila);
 }
 
+void UsarSistema()
+{
+   SistemaInterno sistemaInterno = new SistemaInterno();
+
+    Diretor roberta = new Diretor("159.753.398-04");
+    roberta.Nome = "Roberta";
+    roberta.Senha = "123";
+
+    GerenteDeContas ursula = new GerenteDeContas("326.985.628-89");
+    ursula.Nome = "Ursula";
+    ursula.Senha = "321";
+
+    ParceiroComercial joao = new ParceiroComercial();
+    joao.Senha = "456";
+
+    sistemaInterno.Logar (roberta, "123");
+    sistemaInterno.Logar (ursula, "321");
+    sistemaInterno.Logar(joao, "456");
+}
 Console.ReadKey();
 
 

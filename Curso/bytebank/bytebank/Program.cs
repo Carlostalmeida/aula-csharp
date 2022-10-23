@@ -1,79 +1,121 @@
-﻿using bytebank;
-using bytebank.Titular;
-using System;
+﻿namespace bytebank
+{
 
-Console.WriteLine("Boas Vindas ao seu Banco, ByteBank!");
+    class Program
+    {
 
+        static void Main(string[] args)
+        {
+            
+            try
+            {
+                ContaCorrente conta = new ContaCorrente (525, 52665);
+                ContaCorrente conta2 = new ContaCorrente(5245, 52425);
 
-//ContaCorrente conta1 = new ContaCorrente();
-//conta1.titular = "Andre Silva";
-//conta1.conta = "10123 - x";
-//conta1.numero_agencia = 23;
-//conta1.nome_agencia = "Agencia Central";
-//conta1.saldo = 100;
+                conta.Depositar(50);
+                Console.WriteLine(conta.Saldo);
+                conta.Sacar(1000);
+                //conta.Transferir(500, conta2);
+                Console.WriteLine(conta.Saldo);
+                
+            }
+            catch (ArgumentException ex)
+            {
+                Console.WriteLine("Erro no parametro: " + ex.ParamName);
+                Console.WriteLine("Ocorreu um erro do tipo ArgumentException.");
+                Console.WriteLine(ex.StackTrace);
+                Console.WriteLine(ex.Message);
+            }
+            catch (OperacaoFinanceiraException ex)
+            {
+                Console.WriteLine(ex.StackTrace);
+                Console.WriteLine(ex.Message);
 
-//ContaCorrente conta2 = new ContaCorrente();
-//conta2.titular = "Amanda Silva";
-//conta2.conta = "111999 - x";
-//conta2.numero_agencia = 58;
-//conta2.nome_agencia = "Agencia Central";
-//conta2.saldo = 100;
+                Console.WriteLine("Informacoes da INNER EXCEPTION (excecao interna):");
 
-//Cliente cliente = new Cliente();
-//cliente.nome = "Andre Silva";
-//cliente.cpf = "10253541263";
-//cliente.profissao = "Programador C#";
+                Console.WriteLine(ex.InnerException.Message);
+                Console.WriteLine(ex.InnerException.StackTrace);
+            }
+            catch (SaldoInsuficienteException)
+            {
+                Console.WriteLine("Excecao do tipo SaldoInsuficienteException");
+            }
 
-//ContaCorrente conta3 = new ContaCorrente();
-//conta3.titular = new Cliente();
-//conta3.titular.nome = "Andre Silva";
-//conta3.titular.cpf = "10253541263";
-//conta3.titular.profissao = "Programador C#";
-//conta3.conta = "2513252 - x";
-//conta3.numero_agencia = 35;
-//conta3.nome_agencia = "Agencia Central";
-//conta3.saldo = 100;
+            //Console.WriteLine(ContaCorrente.TaxaOperacao);
+            try
+            {
+                Metodo();
+            }
+            catch (NullReferenceException)
+            {
+                Console.WriteLine("Aconteceu um erro!");
+            }
+            catch (DivideByZeroException)
+            {
+                Console.WriteLine("Ocorreu um erro! Nao e possivel dividir um numero por 0!");
+            }
+            catch
+            {
+                Console.WriteLine("Nao e possivel fazer essa divisao.");
+            }
+            
+            Console.ReadLine();
+        }
 
-//Cliente sarah = new Cliente();
-//sarah.Nome = "Sarah Silva";
+        private static void Metodo()
+        {
 
-//ContaCorrente conta4 = new ContaCorrente(235, "125358-x");
-//conta4.Saldo =150;
-//conta4.Titular = sarah;
-//Console.WriteLine("Saldo: " + conta4.Saldo);
-//Console.WriteLine("Titular: " + conta4.Titular.Nome);
-//Console.WriteLine("Conta: " + conta4.Conta);
-//Console.WriteLine("Numero Agencia: " + conta4.Numero_Agencia);
+            TestaDivisao(0);
 
-ContaCorrente conta5 = new ContaCorrente(235, "125358 -X");
-//conta5.TotalDeContasCriadas = 1;
-ContaCorrente conta6 = new ContaCorrente(365, "957256 -X");
-//conta6.TotalDeContasCriadas += 1;
-//Console.WriteLine(conta5.TotalDeContasCriadas);
-//Console.WriteLine(conta6.TotalDeContasCriadas);
-Console.WriteLine(ContaCorrente.TotalDeContasCriadas);
+        }
+        private static void CarregarContas()
+        {
+            LeitorDeArquivo Leitor = LeitorDeArquivo("contas.txt");
+            try
+            {
+                
+                Leitor.LerProximaLinha();
+                Leitor.LerProximaLinha();
+                Leitor.LerProximaLinha();
+                
+            }
+            catch(IOException ex)
+            {
+                Console.WriteLine("Excecao do tipo IOException capturada e tratada!");
+            }
+            finally
+            {
+                leitor.Fechar();
+            }
+        }
+        private static void TestaDivisao(int divisor)
+        {
+            int resultado = Dividir(10, divisor);
+            Console.WriteLine("Resultado da divisao de 10 por " + divisor + " e " + resultado);
 
-//Console.WriteLine(conta3.titular.nome);
+        }
 
+        private static int Dividir(int numero, int divisor)
+        {
+            try
+            {
+                return numero /divisor;
+            }
+            catch
+            {
+                Console.WriteLine("Excecao com numero = " + numero + " e divisor = " + divisor);
+                throw;
+            }
+            //if (divisor == -1)
+            //{
+            //    return -1;
+            //}
+            //if (divisor > numero)
+            //{
+            //    return -2;
+            //}
+            //return numero / divisor;
+        }
 
-//Console.WriteLine("Titular: " + conta1.titular);
-//Console.WriteLine("Conta: " + conta1.conta);
-//Console.WriteLine("Numero Agencia: " + conta1.numero_agencia);
-//Console.WriteLine("Nome Agencia: " + conta1.nome_agencia);
-//Console.WriteLine("saldo: " + conta1.saldo);
-
-//Console.WriteLine(cliente.nome);
-
-//Console.WriteLine("Saldo da Amanda pre-Transferencia: " +conta2.saldo);
-
-//Console.WriteLine("Saldo da Andre pre-Transferenciaa: " + conta1.saldo);
-
-//bool tranferencia = conta1.Transferir(50, conta2);
-
-//Console.WriteLine("Transferencia Realizada com sucesso? " +tranferencia);
-
-//Console.WriteLine("Saldo da Amanda pos-Transferencia: " + conta2.saldo);
-
-//Console.WriteLine("Saldo da Andre pos-Tranferencia: " + conta1.saldo);
-
-Console.ReadKey();
+    }
+}

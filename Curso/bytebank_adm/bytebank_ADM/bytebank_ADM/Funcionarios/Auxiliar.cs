@@ -15,7 +15,7 @@ namespace bytebank_ADM.Funcionarios
         }
         public Auxiliar(string cpf): base(cpf, 2000)
         {
-            Console.WriteLine("Criando um Auxiliar!");    
+            //Console.WriteLine("Criando um Auxiliar!");    
         }
 
         public override void AumentarSalario()

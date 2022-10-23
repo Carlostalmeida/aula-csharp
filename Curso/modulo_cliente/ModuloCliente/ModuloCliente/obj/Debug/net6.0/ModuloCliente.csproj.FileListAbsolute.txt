@@ -1,0 +1,15 @@
+C:\Git\Git-e-github\Carlos\aula-csharp\aula-csharp\Curso\modulo_cliente\ModuloCliente\ModuloCliente\bin\Debug\net6.0\ModuloCliente.exe
+C:\Git\Git-e-github\Carlos\aula-csharp\aula-csharp\Curso\modulo_cliente\ModuloCliente\ModuloCliente\bin\Debug\net6.0\ModuloCliente.deps.json
+C:\Git\Git-e-github\Carlos\aula-csharp\aula-csharp\Curso\modulo_cliente\ModuloCliente\ModuloCliente\bin\Debug\net6.0\ModuloCliente.runtimeconfig.json
+C:\Git\Git-e-github\Carlos\aula-csharp\aula-csharp\Curso\modulo_cliente\ModuloCliente\ModuloCliente\bin\Debug\net6.0\ModuloCliente.dll
+C:\Git\Git-e-github\Carlos\aula-csharp\aula-csharp\Curso\modulo_cliente\ModuloCliente\ModuloCliente\bin\Debug\net6.0\ModuloCliente.pdb
+C:\Git\Git-e-github\Carlos\aula-csharp\aula-csharp\Curso\modulo_cliente\ModuloCliente\ModuloCliente\obj\Debug\net6.0\ModuloCliente.csproj.AssemblyReference.cache
+C:\Git\Git-e-github\Carlos\aula-csharp\aula-csharp\Curso\modulo_cliente\ModuloCliente\ModuloCliente\obj\Debug\net6.0\ModuloCliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\Git-e-github\Carlos\aula-csharp\aula-csharp\Curso\modulo_cliente\ModuloCliente\ModuloCliente\obj\Debug\net6.0\ModuloCliente.AssemblyInfoInputs.cache
+C:\Git\Git-e-github\Carlos\aula-csharp\aula-csharp\Curso\modulo_cliente\ModuloCliente\ModuloCliente\obj\Debug\net6.0\ModuloCliente.AssemblyInfo.cs
+C:\Git\Git-e-github\Carlos\aula-csharp\aula-csharp\Curso\modulo_cliente\ModuloCliente\ModuloCliente\obj\Debug\net6.0\ModuloCliente.csproj.CoreCompileInputs.cache
+C:\Git\Git-e-github\Carlos\aula-csharp\aula-csharp\Curso\modulo_cliente\ModuloCliente\ModuloCliente\obj\Debug\net6.0\ModuloCliente.dll
+C:\Git\Git-e-github\Carlos\aula-csharp\aula-csharp\Curso\modulo_cliente\ModuloCliente\ModuloCliente\obj\Debug\net6.0\refint\ModuloCliente.dll
+C:\Git\Git-e-github\Carlos\aula-csharp\aula-csharp\Curso\modulo_cliente\ModuloCliente\ModuloCliente\obj\Debug\net6.0\ModuloCliente.pdb
+C:\Git\Git-e-github\Carlos\aula-csharp\aula-csharp\Curso\modulo_cliente\ModuloCliente\ModuloCliente\obj\Debug\net6.0\ModuloCliente.genruntimeconfig.cache
+C:\Git\Git-e-github\Carlos\aula-csharp\aula-csharp\Curso\modulo_cliente\ModuloCliente\ModuloCliente\obj\Debug\net6.0\ref\ModuloCliente.dll
