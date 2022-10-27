@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git\\Git-e-github\\Carlos\\aula-csharp\\aspnet\\LanchesMac\\LanchesMac\\LanchesMac.csproj": {}
+    "C:\\Git\\git-e-github\\Carlos\\aula-csharp\\AulaAspNet\\aspnet\\LanchesMac\\LanchesMac\\LanchesMac.csproj": {}
   },
   "projects": {
-    "C:\\Git\\Git-e-github\\Carlos\\aula-csharp\\aspnet\\LanchesMac\\LanchesMac\\LanchesMac.csproj": {
+    "C:\\Git\\git-e-github\\Carlos\\aula-csharp\\AulaAspNet\\aspnet\\LanchesMac\\LanchesMac\\LanchesMac.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\Git-e-github\\Carlos\\aula-csharp\\aspnet\\LanchesMac\\LanchesMac\\LanchesMac.csproj",
+        "projectUniqueName": "C:\\Git\\git-e-github\\Carlos\\aula-csharp\\AulaAspNet\\aspnet\\LanchesMac\\LanchesMac\\LanchesMac.csproj",
         "projectName": "LanchesMac",
-        "projectPath": "C:\\Git\\Git-e-github\\Carlos\\aula-csharp\\aspnet\\LanchesMac\\LanchesMac\\LanchesMac.csproj",
-        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\Git-e-github\\Carlos\\aula-csharp\\aspnet\\LanchesMac\\LanchesMac\\obj\\",
+        "projectPath": "C:\\Git\\git-e-github\\Carlos\\aula-csharp\\AulaAspNet\\aspnet\\LanchesMac\\LanchesMac\\LanchesMac.csproj",
+        "packagesPath": "C:\\Users\\mi02954\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\git-e-github\\Carlos\\aula-csharp\\AulaAspNet\\aspnet\\LanchesMac\\LanchesMac\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mi02954\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -58,6 +58,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.10, )"
             }
